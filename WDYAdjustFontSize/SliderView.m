@@ -82,10 +82,10 @@
             label.font = [UIFont systemFontOfSize:14];
             label.textAlignment = NSTextAlignmentCenter;
             label.text = self.unitArr[i];
-            label.backgroundColor = UIColor.redColor;
+//            label.backgroundColor = UIColor.redColor;
             [self addSubview:label];
         }
-        self.backgroundColor = UIColor.orangeColor;
+//        self.backgroundColor = UIColor.orangeColor;
         self.tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapAction:)];
         [self addGestureRecognizer:self.tapGesture];
     }
