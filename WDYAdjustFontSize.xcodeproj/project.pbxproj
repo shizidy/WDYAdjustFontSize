@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		740A85EE2797F09E001824C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A85ED2797F09E001824C4 /* AppDelegate.m */; };
+		740A85F12797F09E001824C4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A85F02797F09E001824C4 /* SceneDelegate.m */; };
+		740A85F42797F09E001824C4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A85F32797F09E001824C4 /* ViewController.m */; };
+		740A85F72797F09E001824C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740A85F52797F09E001824C4 /* Main.storyboard */; };
+		740A85F92797F0A7001824C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 740A85F82797F0A7001824C4 /* Assets.xcassets */; };
+		740A85FC2797F0A7001824C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 740A85FA2797F0A7001824C4 /* LaunchScreen.storyboard */; };
+		740A85FF2797F0A7001824C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A85FE2797F0A7001824C4 /* main.m */; };
+		740A86082797F1D6001824C4 /* UILabel+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A86072797F1D6001824C4 /* UILabel+Extension.m */; };
+		740A860C2797F1EF001824C4 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A860B2797F1EF001824C4 /* UIButton+Extension.m */; };
+		740A86102797F6D0001824C4 /* SwapMethodManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A860F2797F6D0001824C4 /* SwapMethodManager.m */; };
+		740A86142798051D001824C4 /* ControlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A86132798051D001824C4 /* ControlManager.m */; };
+		740A861827980A01001824C4 /* SliderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 740A861727980A01001824C4 /* SliderView.m */; };
+		742AFBF12798F6AC00802B95 /* FontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 742AFBF02798F6AC00802B95 /* FontManager.m */; };
+		745C2216279953A000B70378 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 745C2215279953A000B70378 /* HomeViewController.m */; };
+		745C221B279C3D1500B70378 /* UIFont+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 745C221A279C3D1500B70378 /* UIFont+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		740A85E92797F09E001824C4 /* WDYAdjustFontSize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WDYAdjustFontSize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		740A85EC2797F09E001824C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		740A85ED2797F09E001824C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		740A85EF2797F09E001824C4 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		740A85F02797F09E001824C4 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		740A85F22797F09E001824C4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		740A85F32797F09E001824C4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		740A85F62797F09E001824C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		740A85F82797F0A7001824C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		740A85FB2797F0A7001824C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		740A85FD2797F0A7001824C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		740A85FE2797F0A7001824C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		740A86062797F1D6001824C4 /* UILabel+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+Extension.h"; sourceTree = "<group>"; };
+		740A86072797F1D6001824C4 /* UILabel+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Extension.m"; sourceTree = "<group>"; };
+		740A860A2797F1EF001824C4 /* UIButton+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		740A860B2797F1EF001824C4 /* UIButton+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
+		740A860E2797F6D0001824C4 /* SwapMethodManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwapMethodManager.h; sourceTree = "<group>"; };
+		740A860F2797F6D0001824C4 /* SwapMethodManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwapMethodManager.m; sourceTree = "<group>"; };
+		740A86122798051D001824C4 /* ControlManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ControlManager.h; sourceTree = "<group>"; };
+		740A86132798051D001824C4 /* ControlManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ControlManager.m; sourceTree = "<group>"; };
+		740A861627980A01001824C4 /* SliderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SliderView.h; sourceTree = "<group>"; };
+		740A861727980A01001824C4 /* SliderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SliderView.m; sourceTree = "<group>"; };
+		742AFBEF2798F6AC00802B95 /* FontManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontManager.h; sourceTree = "<group>"; };
+		742AFBF02798F6AC00802B95 /* FontManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontManager.m; sourceTree = "<group>"; };
+		745C2214279953A000B70378 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		745C2215279953A000B70378 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		745C2219279C3D1500B70378 /* UIFont+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Extension.h"; sourceTree = "<group>"; };
+		745C221A279C3D1500B70378 /* UIFont+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		740A85E62797F09E001824C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		740A85E02797F09E001824C4 = {
+			isa = PBXGroup;
+			children = (
+				740A85EB2797F09E001824C4 /* WDYAdjustFontSize */,
+				740A85EA2797F09E001824C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		740A85EA2797F09E001824C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				740A85E92797F09E001824C4 /* WDYAdjustFontSize.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		740A85EB2797F09E001824C4 /* WDYAdjustFontSize */ = {
+			isa = PBXGroup;
+			children = (
+				740A85EC2797F09E001824C4 /* AppDelegate.h */,
+				740A85ED2797F09E001824C4 /* AppDelegate.m */,
+				740A85EF2797F09E001824C4 /* SceneDelegate.h */,
+				740A85F02797F09E001824C4 /* SceneDelegate.m */,
+				740A85F22797F09E001824C4 /* ViewController.h */,
+				740A85F32797F09E001824C4 /* ViewController.m */,
+				740A85F52797F09E001824C4 /* Main.storyboard */,
+				740A85F82797F0A7001824C4 /* Assets.xcassets */,
+				740A85FA2797F0A7001824C4 /* LaunchScreen.storyboard */,
+				740A85FD2797F0A7001824C4 /* Info.plist */,
+				740A85FE2797F0A7001824C4 /* main.m */,
+				740A86062797F1D6001824C4 /* UILabel+Extension.h */,
+				740A86072797F1D6001824C4 /* UILabel+Extension.m */,
+				740A860A2797F1EF001824C4 /* UIButton+Extension.h */,
+				740A860B2797F1EF001824C4 /* UIButton+Extension.m */,
+				740A860E2797F6D0001824C4 /* SwapMethodManager.h */,
+				740A860F2797F6D0001824C4 /* SwapMethodManager.m */,
+				740A86122798051D001824C4 /* ControlManager.h */,
+				740A86132798051D001824C4 /* ControlManager.m */,
+				740A861627980A01001824C4 /* SliderView.h */,
+				740A861727980A01001824C4 /* SliderView.m */,
+				742AFBEF2798F6AC00802B95 /* FontManager.h */,
+				742AFBF02798F6AC00802B95 /* FontManager.m */,
+				745C2214279953A000B70378 /* HomeViewController.h */,
+				745C2215279953A000B70378 /* HomeViewController.m */,
+				745C2219279C3D1500B70378 /* UIFont+Extension.h */,
+				745C221A279C3D1500B70378 /* UIFont+Extension.m */,
+			);
+			path = WDYAdjustFontSize;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		740A85E82797F09E001824C4 /* WDYAdjustFontSize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 740A86022797F0A7001824C4 /* Build configuration list for PBXNativeTarget "WDYAdjustFontSize" */;
+			buildPhases = (
+				740A85E52797F09E001824C4 /* Sources */,
+				740A85E62797F09E001824C4 /* Frameworks */,
+				740A85E72797F09E001824C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WDYAdjustFontSize;
+			productName = WDYAdjustFontSize;
+			productReference = 740A85E92797F09E001824C4 /* WDYAdjustFontSize.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		740A85E12797F09E001824C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					740A85E82797F09E001824C4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 740A85E42797F09E001824C4 /* Build configuration list for PBXProject "WDYAdjustFontSize" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 740A85E02797F09E001824C4;
+			productRefGroup = 740A85EA2797F09E001824C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				740A85E82797F09E001824C4 /* WDYAdjustFontSize */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		740A85E72797F09E001824C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740A85FC2797F0A7001824C4 /* LaunchScreen.storyboard in Resources */,
+				740A85F92797F0A7001824C4 /* Assets.xcassets in Resources */,
+				740A85F72797F09E001824C4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		740A85E52797F09E001824C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				740A85F42797F09E001824C4 /* ViewController.m in Sources */,
+				740A860C2797F1EF001824C4 /* UIButton+Extension.m in Sources */,
+				745C221B279C3D1500B70378 /* UIFont+Extension.m in Sources */,
+				740A85EE2797F09E001824C4 /* AppDelegate.m in Sources */,
+				740A86102797F6D0001824C4 /* SwapMethodManager.m in Sources */,
+				740A861827980A01001824C4 /* SliderView.m in Sources */,
+				740A85FF2797F0A7001824C4 /* main.m in Sources */,
+				745C2216279953A000B70378 /* HomeViewController.m in Sources */,
+				742AFBF12798F6AC00802B95 /* FontManager.m in Sources */,
+				740A86082797F1D6001824C4 /* UILabel+Extension.m in Sources */,
+				740A85F12797F09E001824C4 /* SceneDelegate.m in Sources */,
+				740A86142798051D001824C4 /* ControlManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		740A85F52797F09E001824C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740A85F62797F09E001824C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		740A85FA2797F0A7001824C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				740A85FB2797F0A7001824C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		740A86002797F0A7001824C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		740A86012797F0A7001824C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		740A86032797F0A7001824C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = WDYAdjustFontSize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.WDYAdjustFontSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		740A86042797F0A7001824C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UKN88ZK5LF;
+				INFOPLIST_FILE = WDYAdjustFontSize/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wdyzmx.WDYAdjustFontSize;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		740A85E42797F09E001824C4 /* Build configuration list for PBXProject "WDYAdjustFontSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740A86002797F0A7001824C4 /* Debug */,
+				740A86012797F0A7001824C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		740A86022797F0A7001824C4 /* Build configuration list for PBXNativeTarget "WDYAdjustFontSize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				740A86032797F0A7001824C4 /* Debug */,
+				740A86042797F0A7001824C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 740A85E12797F09E001824C4 /* Project object */;
+}
