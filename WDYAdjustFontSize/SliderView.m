@@ -24,6 +24,7 @@
 @property (nonatomic, copy) SliderValueCallBack callBack;
 /// @{@"字体size": @"slider value"}  字体size对应slider value
 @property (nonatomic, strong) NSDictionary *unitDict;
+/// 存储字体
 @property (nonatomic, strong) NSArray *unitArr;
 @end
 
